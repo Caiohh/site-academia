@@ -1,0 +1,83 @@
+:root {
+    --preto-bg-inpe: #161617;
+    --amarelo-bg-inpe:#F29406;
+    --azul-bg-inpe:#0979B9;
+    --azulescuro-bg-inpe:#071d41;
+    --bege-bg-inpe:#E4DBCE;
+    --branco-bg-inpe:#FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Anton';
+    src: url(/font/Anton-Regular.ttf);
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* para garantir que o rodapé fique sempre no final */
+}
+
+.content {
+    flex-grow: 1; /* faz com que o conteúdo ocupe todo o espaço disponível */
+}
+
+.carousel {
+    margin: 4rem 0 0.5rem 0;
+}
+
+.carousel-caption {
+    background-color: #16161773;
+}
+
+.carousel h5, .carousel p {
+    text-shadow: 1px 1px 1.5px var(--preto-bg-inpe);
+    margin: 0;
+    font-size: 19px;
+
+}
+
+.carousel-caption:hover {
+    background-color: #000000ad;
+    text-shadow: 1px 1px 1.5px var(--preto-bg-inpe);
+    transform: scale(1.1); 
+    transition: all 1s; 
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--branco-bg-inpe);
+    font-family: 'Rawline', Raleway, sans-serif;
+}
+
+.subtitulo-padrao-conteudo {
+    text-transform: uppercase;
+    font-family: 'Rawline', Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 34.832px;
+    margin-bottom: 2rem;
+}
+
+.texto-padrao-conteudo {
+    font-family: 'Rawline', Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 0;
+}
+
+.texto-coids-content {
+    margin-top: 2rem;
+}
+
+.cor-imagem {
+    /* background-image: url(/img/fitness.jpg); */
+    background-color: #161617bb;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.imagem-fundo {
+    background-image: url(/img/fitness.jpg);
+}
