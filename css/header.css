@@ -1,3 +1,8 @@
+:root {
+    --amarelo-rocksgym:#F8FD2C;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @font-face {
     font-family: 'Anton';
@@ -22,20 +27,26 @@
 
 .btn-fixed span {
     font-size: 50px;
-    color: #ffffff62;
+    color: var(--amarelo-rocksgym);
     border-radius: 50%;
 }
 
 .navbar {
     height: 9rem;
+    color: var(--amarelo-rocksgym);
 }
 
 .navbar-brand {
     font-family: 'Anton';
-    color: #ffffff;
+    color: var(--amarelo-rocksgym);
     text-shadow: 0.05em 0.01em #858585;
+}
+
+.navbar h1, p, .fonte-header{
+    color: var(--amarelo-rocksgym);
 }
 
 .nav-item {
     font-family: 'Rawline', sans-serif;
+    color: var(--amarelo-rocksgym);
 }

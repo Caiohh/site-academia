@@ -79,5 +79,7 @@
 }
 
 .imagem-fundo {
-    background-image: url(/img/fitness.jpg);
+    background-image: url(/img/academia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
